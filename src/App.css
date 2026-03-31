@@ -1,0 +1,20 @@
+/* App-specific styles */
+
+/* Fix for Leaflet custom icon positioning */
+.custom-stop-icon,
+.custom-terminal-icon,
+.custom-transit-icon {
+  background: transparent !important;
+  border: none !important;
+}
+
+/* Map loading animation */
+.leaflet-container {
+  background: #1a1a2e;
+}
+
+/* Polyline hover effect */
+.leaflet-interactive:hover {
+  stroke-opacity: 1 !important;
+  stroke-width: 7 !important;
+}
